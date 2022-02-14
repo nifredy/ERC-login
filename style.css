@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+section {
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(250, 250, 250, 0.2),
+      rgba(236, 165, 71, 0.5)
+    ),
+    url("./img/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  margin: 0 10%;
+}
+.promotext {
+  padding-top: 15%;
+  color: #ddedff;
+  text-shadow: 1px 1px 11px #030000e0;
+}
+
+.promotext .logo {
+  width: 30%;
+  border-radius: 5%;
+  margin-left: 6.62%;
+}
+.promotext p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.login {
+  position: absolute;
+  padding: 50px 80px;
+  text-align: center;
+  box-shadow: 3px 6px 30px 8px rgb(58 58 58 / 15%);
+  background: rgb(0, 52, 134 / 50%);
+  right: 10%;
+  bottom: 10%;
+  height: 77%;
+  border: 1px solid;
+  border-top-color: #f7f7f7;
+  border-left-color: #f7f7f7;
+  border-bottom-color: #00000030;
+  border-right-color: #00000030;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+}
+
+.login h4 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fce7e7;
+}
+.login p {
+  font-size: 18px;
+  color: #f3cecd;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+.inputbox {
+  position: relative;
+  margin-bottom: 50px;
+}
+.inputbox input {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #eff9ff;
+  border: none;
+  border-bottom: 1px solid #f7f7f7;
+  background-color: transparent;
+  padding: 4px 3px;
+  outline: none;
+}
+.inputbox span {
+  position: absolute;
+  left: 2px;
+  bottom: 40px;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+}
+.button {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  background: #e90601;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  font-size: 20px;
+  padding: 18px 80px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  box-shadow: 0 3px 8px 2px rgb(60 60 60 / 30%);
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #e90601;
+  box-shadow: 0 3px 8px 2px rgb(99 99 99 / 30%);
+  transition: all 0.2s ease-in-out;
+}
